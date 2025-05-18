@@ -31,11 +31,13 @@ This project covers the full lifecycle from raw metadata curation to baseline ev
 ```text
 .
 ├── Data_Prep_And_Curation_Notebooks/   # Metadata parsing & QA CSV generation
+├── Datasets/                           # Curated Q&A Dataset for finetuning
 ├── Finetuning_Notebooks/               # LoRA fine-tuning experiments
 ├── Inference_Notebooks/                # Model inference demos
 │   ├── Baseline/                       # Off-the-shelf model benchmarks
 │   └── Finetuned/                      # LoRA-tuned weights inference
 ├── uploading-model-to-hf.ipynb         # Script to push weights to HF
-├── VRMP2_Report.pdf                    # Detailed project report & results
+├── Report.pdf                          # Detailed project report & results
+├── inference.py                        # Inference Script for final Evaluation
 ├── requirements.txt                    # Python dependencies
 └── README.md                           # This overview
